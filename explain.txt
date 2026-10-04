@@ -1,0 +1,75 @@
+Assignment No: 03 Unit: Unit III -- Memory, Tools, and Environment Interaction
+Title: Retrieval-Augmented Agent with Long-Term Memory and Tool/Function Calling
+Mapped Course Outcome:
+
+CO3 -- Integrate tools, APIs, and memory modules in intelligent agents. (Apply)
+
+Objective:
+
+To enable students to build an autonomous agent that combines short-term and long-term memory
+with a vector database, and interacts with external tools/APIs via function calling to complete
+multi-turn, multi-session tasks.
+
+Problem Statement:
+
+Build a personal-assistant style agent (e.g., a research assistant or coding assistant) using
+LangChain/LangGraph or AutoGen that maintains short-term conversational memory, stores and
+retrieves long-term facts using a vector database (FAISS/Chroma), and calls at least two external
+tools via function calling to complete user requests across multiple sessions.
+
+Implementation Tasks:
+
+1. Set up short-term memory (a conversation buffer) that retains context within a single session.
+2. Implement long-term memory using a vector database: embed and store facts/documents, and
+retrieve relevant context via similarity search.
+3. Implement at least two tool-calling functions (e.g., web search, calculator, or code execution)
+integrated with the agent via function/API calling.
+4. Build a feedback-based adaptation loop in which the agent updates its stored memory based
+on new information or user corrections.
+5. Test the agent across 3 multi-turn scenarios that require memory recall from earlier sessions.
+6. Log and evaluate retrieval accuracy (relevant memory correctly retrieved) and tool-call
+success rate.
+7. Prepare a 1-page report on the agent&#39;s memory-tool architecture, including an interaction-flow
+diagram.
+
+Tools &amp; Technologies: Python, LangChain/LangGraph or AutoGen, FAISS/Chroma/Pinecone, an LLM API
+
+(OpenAI/Gemini), Jupyter/Google Colab.
+
+Expected Deliverables:
+
+• Working notebook/application implementing the memory + tool-calling agent.
+• Vector-database indexing and retrieval demonstration.
+• Multi-turn test log with retrieval-accuracy and tool-call success metrics.
+• 1-page architecture report with an interaction-flow diagram.
+• Live demo answering evaluator questions that require memory recall.
+
+Evaluation Criteria
+Criterion Marks
+Short-term memory / context
+retention implementation 2
+Long-term memory via vector
+database -- embedding, storage
+and retrieval accuracy
+
+3
+
+Tool/function calling integration
+(minimum 2 tools) 2
+Feedback-based adaptation and
+multi-turn testing 2
+Architecture report and live 1
+
+MIT ADT University, Pune
+
+demo/viva
+Total 10
+
+Reference / Resources:
+
+• LangChain / LangGraph official documentation
+• AutoGen tutorials (Microsoft)
+• FAISS / Chroma vector-database documentation
+• Unit III syllabus notes -- Memory, Tools and Environment Interaction
+
+Faculty Signature: HOD Signature:
